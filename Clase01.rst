@@ -27,6 +27,9 @@ Clase 01 - POO 2021
         - **Opcionables**: Continuar el desarrollo de la aplicación Opcionables para redefinir la GUI.
         - **Redes neuronales**: Utilizando Python con la biblioteca PyQt utilizando POO.
         - **Procesamiento de imágenes**: Utilizando Python con la biblioteca PyQt utilizando POO.
+        - **Buscar en mercadolibre con imágenes**: Utilizar la API de mercadolibre y de Cloud Vision de Google para colocar una imagen y busque ofertas. Ver https://cloud.google.com/vision/docs/drag-and-drop
+        - **Combinar APIs**: Youtube Music, Instagram, TIkTok, Google, etc.
+
     :Temas principales: 
 		- Espacio de nombres
 		- inline y const
