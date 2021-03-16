@@ -233,6 +233,22 @@ Ejemplos con namespace
  Publica:    5		5.14
  --->
 
+**Ejercicio 1**
+
+- Instalar Qt Creator, junto con la biblioteca Qt y las herramientas de compilación MinGW.
+- Utilizar el instalador Offline: https://download.qt.io/archive/qt/5.14/5.14.1/
+
+
+**Ejercicio 2**
+
+- Crear el primer programa en Qt Creator un texto cualquier por consola utilizando el espacio de nombres std.
+
+
+**Ejercicio 3**
+
+- Compruebe el funcionamiento de los 4 ejemplos anteriores con espacio de nombres.
+- Formule 2 dudas para que respondamos en clase.
+
 
 Función Genérica
 ================
