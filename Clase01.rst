@@ -57,7 +57,33 @@ Clase 01 - POO 2021
 Biblioteca estándar de C++
 ==========================
 
-.. figure:: images/clase01/comparacion_cpp_c.png
+- Está en el espacio de nombres ´´std´´
+- En la biblioteca estándar de C, los archivos de cabecera X.h se reemplazan por cX o X. Por ejemplo:
+
+.. code-block:: c
+
+	#include <stdlib.h>                   #include <cstdlib>    
+
+	    int atoi( const char * )  // Convierte a int un número expresado en cadena
+	    int abs( int )            // Devuleve el valor absoluto
+	    int rand()                // Devuelve un pseudo número aleatorio entre 0 y 32767
+
+
+	#include <stdio.h>                   #include <cstdio>    
+
+	    // Borra un archivo. DEvuelve 0 o un código de error.
+	    int remove( const char * filename )
+
+	    // imprime por pantalla. Recibe un número indefinido de argumentos.
+	    int printf( const char * format, ... )
+
+	#include <iostream.h>                   #include <iostream>    
+
+	    cout
+	    cin
+	    endl
+
+
 
 Espacio de nombres (namespace)
 ==============================
