@@ -57,7 +57,7 @@ Clase 01 - POO 2021
 Biblioteca estándar de C++
 ==========================
 
-- Está en el espacio de nombres ´´std''
+- Está en el espacio de nombres ``std``
 - En la biblioteca estándar de C, los archivos de cabecera X.h se reemplazan por cX o X. Por ejemplo:
 
 .. code-block:: c
