@@ -178,7 +178,7 @@ Punteros
 
 
 
-**Ejercicio:** Escribir la salida por consola de la siguiente aplicación:
+**Ejercicio 5:** Escribir la salida por consola de la siguiente aplicación:
 
 .. code-block:: c
 
