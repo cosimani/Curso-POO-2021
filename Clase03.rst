@@ -7,6 +7,16 @@ Clase 03 - POO 2021
 (Fecha: 23 de marzo)
 
 
+
+Para responder las preguntas sobre los videos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Descargar y compilar `https://github.com/cosimani/Opcionables <https://github.com/cosimani/Opcionables>`_
+- Ejecutar y loguearse con su nombre de usuario de MiUBP y la clave es su número de legajo.
+
+
+
+
 Función Genérica
 ================
 
