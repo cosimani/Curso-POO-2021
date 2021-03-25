@@ -110,7 +110,7 @@ Punteros
 
 **Ejercicio 7**
 
-- Crear dos std::vector. Un vector< double > y un vector< double * >
+- Crear dos std::vector. Un ``vector< double >`` y un vector< double * >
 - Agregar 10 elementos en cada uno.
 - Averiguar cuál objeto ocupa más memoria. 
 - Publicar por consola el tamaño.
