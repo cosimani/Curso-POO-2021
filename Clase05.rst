@@ -281,7 +281,7 @@ Primer aplicación en Qt con interfaz gráfica
 
 **Ejemplo**
 
-- Explicación para crear una aplicación Qt en `Youtube ( https://youtu.be/1gW_DlNkaJA ) <https://youtu.be/1gW_DlNkaJA>`_
+- Creación de una aplicación Qt
 
 .. code-block:: c
 
