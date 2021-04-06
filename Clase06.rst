@@ -107,30 +107,25 @@ Clase 06 - POO 2021
 	    int seccion;
 
 	public:
-	    Poste( int a, int s );
+	    Poste( int altura, int seccion );
 
-	    void getDatos( int & a, int & s );
-	    void setDatos( int a, int s );
+	    void getDatos( int & altura, int & seccion );
+	    void setDatos( int altura, int seccion );
 	};
 
-	Poste::Poste( int a, int s )  {
-	    altura = a;
-	    seccion = s;
+	Poste::Poste( int altura, int seccion ) : altura( altura ), seccion( seccion )  {
+	    
 	}
 
-	void Poste::getDatos( int & a, int & s )  {
-	    a = altura;
-	    s = seccion;
+	void Poste::getDatos( int & altura, int & seccion )  {
+	    altura = this->altura;
+	    seccion = this->seccion;
 	}
 
-	void Poste::setDatos( int a, int s )  {
-	    altura = a;
-	    seccion = s;
+	void Poste::setDatos( int altura, int seccion )  {
+	    this->altura = altura;
+	    this->seccion = seccion;
 	}
-
-
-
-
 
 
 
