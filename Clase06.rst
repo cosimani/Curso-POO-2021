@@ -96,6 +96,41 @@ Clase 06 - POO 2021
  --->
  
  
+¿Cómo funciona el método ``getDatos``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: c
+
+	class Poste  {
+	private:
+	    int altura;
+	    int seccion;
+
+	public:
+	    Poste( int a, int s );
+
+	    void getDatos( int & a, int & s );
+	    void setDatos( int a, int s );
+	};
+
+	Poste::Poste( int a, int s )  {
+	    altura = a;
+	    seccion = s;
+	}
+
+	void Poste::getDatos( int & a, int & s )  {
+	    a = altura;
+	    s = seccion;
+	}
+
+	void Poste::setDatos( int a, int s )  {
+	    altura = a;
+	    seccion = s;
+	}
+
+
+
+
 
 
 
