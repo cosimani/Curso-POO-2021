@@ -332,14 +332,13 @@ Macro Q_OBJECT
 	    return a.exec();
 	}
 
-**Ejercicio 3**
+**Ejercicio 10**
 
 - Cuando el valor del QSlider se modifique, colocar como título de la ventana el mismo valor (de 0 a 100). 
 	
 
-**Ejercicio**
+**Ejercicio 11**
 
-- Explicación de este ejercicio en un `Video tutorial en Youtube ( https://youtu.be/T0tgFKFTl7c ) <https://youtu.be/T0tgFKFTl7c>`_
 - Construir un login.
 - Usar asteriscos para la clave.
 - Detectar enter para simular la pulsación del botón.
