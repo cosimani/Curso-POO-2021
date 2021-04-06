@@ -96,8 +96,8 @@ Clase 06 - POO 2021
  --->
  
  
-¿Cómo funciona el método ``getDatos``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**¿Cómo funciona el método ``getDatos``**
+
 
 .. code-block:: c
 
