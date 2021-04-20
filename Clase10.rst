@@ -7,14 +7,6 @@ Clase 10 - POO 2021
 (Fecha: 20 de abril)
 
 
-Para escuchar buena música y relajar mientras escribimos código
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-[![ScreenShot](http://img.youtube.com/vi/esX7SFtEjHg/0.jpg)](https://youtu.be/esX7SFtEjHg)
-
-
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
-
 Dibujar a mano sobre un QWidget
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -30,7 +22,7 @@ Dibujar a mano sobre un QWidget
 	    Mapa()  {  }
 
 	protected:
-	    void paintEvent(QPaintEvent *);
+	    void paintEvent( QPaintEvent * );
 
 	};
 
@@ -38,23 +30,23 @@ Dibujar a mano sobre un QWidget
 	#include "mapa.h"
 	#include <QPainter>
 
-	void Mapa::paintEvent(QPaintEvent *)  {
-	    QPainter painter(this);
-	    painter.drawLine(0, 0, this->width(), this->height());
+	void Mapa::paintEvent( QPaintEvent * )  {
+	    QPainter painter( this );
+	    painter.drawLine( 0, 0, this->width(), this->height() );
 	}
 
 **Clase QPainter**
 
 - Pinta a bajo nivel sobre widgets.
-- Debe ser utilizado dentro del método ``paintEvent(QPaintEvent*)``.
+- Debe ser utilizado dentro del método ``paintEvent( QPaintEvent * )``.
 
 .. code-block:: c
 
-	void drawEllipse(int x, int y, int ancho, int alto)
-	void drawImage(int x, int y, QImage & image)
-	void drawLine(int x1, int y1, int x2, int y2)
-	void drawText(int x, int y, QString & text)
-	void fillRect(int x, int y, int ancho, int alto)
+	void drawEllipse( int x, int y, int ancho, int alto )
+	void drawImage( int x, int y, QImage & image )
+	void drawLine( int x1, int y1, int x2, int y2 )
+	void drawText( int x, int y, QString & text )
+	void fillRect( int x, int y, int ancho, int alto )
 	
 **Ejercicio 15:** Comenzar un proyecto vacío con QtCreator y diseñar un login de usuarios:
  
