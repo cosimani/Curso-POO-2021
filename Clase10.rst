@@ -10,7 +10,7 @@ Clase 10 - POO 2021
 Para escuchar buena música y relajar mientras escribimos código
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[![ScreenShot](http://img.youtube.com/vi/esX7SFtEjHg/0.jpg)](https://www.youtube.com/watch?v=esX7SFtEjHg)
+[![ScreenShot](http://img.youtube.com/vi/esX7SFtEjHg/0.jpg)](https://youtu.be/esX7SFtEjHg)
 
 
 Dibujar a mano sobre un QWidget
