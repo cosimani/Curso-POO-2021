@@ -15,11 +15,10 @@ Clase 11 - POO 2021
 	Ver `Tutorial Qt signals & slots <https://www.youtube.com/watch?v=IITGountoO4>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
 
 
-Entrega de ejercicios - Ranking - Tercera nota
-==============================================
+Intervenciones en clase y por mail
+==================================
 
-- Se deberán entregar todos aquellos ejercicios que están enumerados en las distintas clases de GitHub
-- Cada alumno entregará sólo algunos ejercicios ordenados según este `Documento en Drive <https://docs.google.com/spreadsheets/d/1H_KD3uwkw2oI6QI0x2qQoUMS4MpVF9jb_7Fl2jqlLJI/edit?usp=sharing>`_
+- Aquí un documento donde se van registrando las intervenciones `Documento en Drive <https://docs.google.com/spreadsheets/d/1vW4OvuCNvOXERpl0OrRuWDAxCuP7UqAUyX5oVjlbVBA/edit?usp=sharing>`_
 
 
 
