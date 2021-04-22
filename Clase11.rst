@@ -22,7 +22,7 @@ Intervenciones en clase y por mail
 
 
 
-Clases derivadas
+Clases derivadas 
 ^^^^^^^^^^^^^^^^
 
 .. code-block:: c
@@ -32,8 +32,8 @@ Clases derivadas
 
 	class Personal  {
 	public:
-	    QString verEdad()  {  return "Edad: " + QString::number(edad);  }
-	    QString verSalario()  {  return "Salario: " + QString::number(salario);  }
+	    QString verEdad()  {  return "Edad: " + QString::number( edad );  }
+	    QString verSalario()  {  return "Salario: " + QString::number( salario );  }
 
 	protected:  // Para acceso desde las clases derivadas
 	    int edad;
@@ -45,13 +45,13 @@ Clases derivadas
 	//    private ->  Pasa todo a privado
 	class Desarrollador : public Personal  {
 	public:
-	    Desarrollador(int edad)  {
+	    Desarrollador( int edad )  {
 	    salario = 2000;
 	    this->edad = edad;
 	}
 
 	// Se podrá usar? 
-	Desarrollador(int edad) : salario(2000), edad(edad)  {  }
+	Desarrollador( int edad ) : salario( 2000 ), edad( edad )  {  }
 	    // No. Sólo para miembros de la propia clase (no para heredados).
 	};
 
@@ -67,10 +67,10 @@ Clases derivadas
 	#include "personal.h"
 	#include <QDebug>
 
-	int main(int argc, char** argv)  {
-	    QApplication a(argc, argv);
+	int main( int argc, char ** argv )  {
+	    QApplication a( argc, argv );
 
-	    Desarrollador juan(20);
+	    Desarrollador juan( 20 );
 	    Administrador marcos;
 
 	    qDebug() << juan.verEdad();
@@ -89,9 +89,9 @@ Constructor de la clase derivada
 
 	class Persona  {
 	public:
-	    Persona(int edad) : edad(edad)  {  }
-	    QString verEdad()  {  return "Edad: " + QString::number(edad);  }
-	    void setEdad(int edad)  {  this->edad = edad;  }
+	    Persona( int edad ) : edad( edad )  {  }
+	    QString verEdad()  {  return "Edad: " + QString::number( edad );  }
+	    void setEdad( int edad )  {  this->edad = edad;  }
 
 	protected:
 	    int edad;
@@ -100,8 +100,8 @@ Constructor de la clase derivada
 	class Empleado : public Persona  {
 	public:
 	    // Siempre primero se llama al constructor de la clase base
-	    Empleado(int edad, int salario) : Persona(edad), salario(salario)  {  }
-	    QString verSalario()  {  return "Salario: " + QString::number(salario);  }
+	    Empleado( int edad, int salario ) : Persona( edad ), salario( salario )  {  }
+	    QString verSalario()  {  return "Salario: " + QString::number( salario );  }
 
 	protected:
 	    int salario;
@@ -111,11 +111,11 @@ Constructor de la clase derivada
 	#include "personal.h"
 	#include <QDebug>
 
-	int main(int argc, char** argv)  {
-	    QApplication a(argc, argv);
+	int main( int argc, char ** argv )  {
+	    QApplication a( argc, argv );
 
-	    Persona carlos(24);
-	    Empleado ale(20, 2500);
+	    Persona carlos( 24 );
+	    Empleado ale( 20, 2500 );
 
 	    qDebug() << carlos.verEdad();
 	    //    qDebug() << carlos.verSalario();  // No compila. No está en la clase base.
@@ -145,7 +145,7 @@ Destructor de la clase derivada
 
 	class ClaseB : public ClaseA  {
 	public:
-	    ClaseB() : datoB(20)  {  qDebug() << "Constructor B";  }
+	    ClaseB() : datoB( 20 )  {  qDebug() << "Constructor B";  }
 	    ~ClaseB()  {  qDebug() << "Destructor B";  }
 	    int verB()  {  return datoB;  }
 
@@ -157,8 +157,8 @@ Destructor de la clase derivada
 	#include "personal.h"
 	#include <QDebug>
 
-	int main(int argc, char** argv)  {
-	    QApplication a(argc, argv);
+	int main( int argc, char ** argv )  {
+	    QApplication a( argc, argv );
 
 	    {
 	    ClaseB objeto;
