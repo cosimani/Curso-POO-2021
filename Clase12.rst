@@ -41,7 +41,7 @@ Web Service
 	// El método path() devuelve /documento/info.html
 	// El método host() devuelve www.yahoo.com.ar
 	
-	QUrl url("http://www.yahoo.com.ar/documento/info.html");
+	QUrl url( "http://www.yahoo.com.ar/documento/info.html" );
 	qDebug() << url.host();
 	qDebug() << url.path();
 
@@ -55,11 +55,11 @@ Clase QNetworkAccessManager
 
 .. code-block:: c
 
-	QNetworkAccessManager* manager = new QNetworkAccessManager;
+	QNetworkAccessManager * manager = new QNetworkAccessManager;
 
-	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(slot_respuesta(QNetworkReply*)));
+	connect( manager, SIGNAL( finished( QNetworkReply * ) ), this, SLOT( slot_respuesta( QNetworkReply * ) ) );
 
-	manager->get(QNetworkRequest(QUrl("http://mi.ubp.edu.ar")));
+	manager->get( QNetworkRequest( QUrl( http://mi.ubp.edu.ar" ) ) );
 
 - Para poder utilizar las clases de network hay que agregar en el .pro
 
@@ -82,9 +82,9 @@ Clase QIODevice
 
 .. code-block:: c
 
-	QByteArray readAll()  		 // Lee todos los datos disponibles.
-	QByteArray read(qint64 max)  // Lee hasta max datos disponibles.
-	QByteArray readLine()  		 // Lee una linea.
+	QByteArray readAll()  		   // Lee todos los datos disponibles.
+	QByteArray read( qint64 max )  // Lee hasta max datos disponibles.
+	QByteArray readLine()  		   // Lee una linea.
 
 
 		
@@ -97,7 +97,7 @@ Clase QNetworkReply
 
 .. code-block:: c
 
-	void downloadProgress(qint64 bytesRecibidos, qint64 bytesTotal)
+	void downloadProgress( qint64 bytesRecibidos, qint64 bytesTotal )
 
 
 Clase QNetworkRequest
@@ -108,11 +108,11 @@ Clase QNetworkRequest
 
 .. code-block:: c
 
-	void setRawHeader(const QByteArray &nombre, const QByteArray & valor)
+	void setRawHeader( const QByteArray &nombre, const QByteArray & valor )
 
 	QNetworkRequest request;
-	request.setUrl(QUrl(ui->le->text()));
-	request.setRawHeader("User-Agent", "MiNavegador 1.0");
+	request.setUrl( QUrl( ui->le->text() ) );
+	request.setRawHeader( "User-Agent", "MiNavegador 1.0" );
 
 Clase QNetworkProxyFactory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -126,10 +126,10 @@ Clase QNetworkProxyFactory
 	#include "principal.h"
 	#include <QNetworkProxyFactory>
 
-	int main(int argc, char *argv[])  {
-	    QApplication a(argc, argv);
+	int main( int argc, char ** argv )  {
+	    QApplication a( argc, argv );
 
-	    QNetworkProxyFactory::setUseSystemConfiguration(true);
+	    QNetworkProxyFactory::setUseSystemConfiguration( true );
 
 	    Principal w;
 	    w.showMaximized();
@@ -144,8 +144,8 @@ Obtener una imagen desde internet
 
 .. code-block:: c
 
-	void Principal::slot_descargaFinalizada(QNetworkReply *reply)  {
-	    QImage image = QImage::fromData(reply->readAll());
+	void Principal::slot_descargaFinalizada( QNetworkReply * reply )  {
+	    QImage image = QImage::fromData( reply->readAll() );
 	}
 
 
