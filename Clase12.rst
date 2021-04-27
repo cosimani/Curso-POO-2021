@@ -151,5 +151,5 @@ Obtener una imagen desde internet
 
 **Ejercicio 18:** 
 
-- Readaptar el Ejercicio 15 para que la imagen se una descargada de internet.
+- Readaptar el Ejercicio 15 para que la imagen sea una descargada de internet.
 
