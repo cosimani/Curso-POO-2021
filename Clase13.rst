@@ -27,6 +27,90 @@ Clase 13 - POO 2021
 	request.setRawHeader( "User-Agent", "MiNavegador 1.0" );
 
 
+
+
+Uso de Qt Designer
+..................
+
+- Nuevo proyecto -> Qt GUI Application
+- Utilizar el puntero ``ui`` para acceder a los objetos del diseño
+- Tener en cuenta que los métodos virtuales de QWidget para eventos se pueden usar:
+
+.. code-block:: c	
+
+	virtual void mousePressEvent( QMouseEvent * event );
+	virtual void resizeEvent( QResizeEvent * event );
+	virtual void moveEvent( QMoveEvent * event );
+	...
+
+**Ejemplo**
+
+.. code-block:: c	
+	
+	// ventana.h
+	#ifndef VENTANA_H
+	#define VENTANA_H
+
+	#include <QWidget>
+
+	namespace Ui {
+	    class Ventana;
+	}
+
+	class Ventana : public QWidget  {
+	    Q_OBJECT
+
+	public:
+	    explicit Ventana( QWidget * parent = 0 );
+	    ~Ventana();
+
+	private:
+	    Ui::Ventana *ui;
+	};
+
+	#endif // VENTANA_H
+
+.. code-block:: c
+
+	// ventana.cpp
+	#include "ventana.h"
+	#include "ui_ventana.h"
+
+	Ventana::Ventana( QWidget * parent ) : QWidget( parent ), ui( new Ui::Ventana )  {
+	    ui->setupUi( this );
+	}
+
+	Ventana::~Ventana()  {
+	    delete ui;
+	}
+
+
+Métodos virtuales de QWidget para capturar eventos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Algunos de ellos:
+
+
+.. code-block:: c
+
+	virtual void mouseDoubleClickEvent( QMouseEvent * event );
+	virtual void mouseMoveEvent( QMouseEvent * event );
+	virtual void mousePressEvent( QMouseEvent * event );
+	virtual void mouseReleaseEvent( QMouseEvent * event );
+	virtual void keyPressEvent( QKeyEvent * event );
+	virtual void keyReleaseEvent( QKeyEvent * event );
+	virtual void resizeEvent( QResizeEvent * event );
+	virtual void moveEvent( QMoveEvent * event );
+	virtual void closeEvent( QCloseEvent * event );
+	virtual void hideEvent( QHideEvent * event )
+	virtual void showEvent( QShowEvent * event )
+	virtual void paintEvent( QPaintEvent * event )
+
+
+- Estos métodos pueden ser reimplementados en una clase derivada para recibir los eventos.
+
+
+
 **Ejercicio 19**
 
 - Buscar el correspondiente valor de User-Agent para un navegador en Android y otro para PC

@@ -152,29 +152,7 @@ Clase QTimer
 - Se podrá navegar sobre las fotos que se descargarán desde internet
 
 
-Métodos virtuales de QWidget para capturar eventos
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Algunos de ellos:
-
-
-.. code-block:: c
-
-	virtual void mouseDoubleClickEvent( QMouseEvent * event );
-	virtual void mouseMoveEvent( QMouseEvent * event );
-	virtual void mousePressEvent( QMouseEvent * event );
-	virtual void mouseReleaseEvent( QMouseEvent * event );
-	virtual void keyPressEvent( QKeyEvent * event );
-	virtual void keyReleaseEvent( QKeyEvent * event );
-	virtual void resizeEvent( QResizeEvent * event );
-	virtual void moveEvent( QMoveEvent * event );
-	virtual void closeEvent( QCloseEvent * event );
-	virtual void hideEvent( QHideEvent * event )
-	virtual void showEvent( QShowEvent * event )
-	virtual void paintEvent( QPaintEvent * event )
-
-
-- Estos métodos pueden ser reimplementados en una clase derivada para recibir los eventos.
 
 **Ejercicio 13**
 
