@@ -30,7 +30,7 @@ Clase 13 - POO 2021
 **Ejercicio 19**
 
 - Buscar el correspondiente valor de User-Agent para un navegador en Android y otro para PC
-- Realizar una interfaz que permita colocar en un QLineEdit la url de una página web
+- Realizar una interfaz que permita colocar en un ``QLineEdit`` la url de una página web
 - Validar que si el usuario no escribe el www, que lo agregue, y si no coloca https://, que lo agregue
 - Realizar dos consultas a varias páginas web con ambos valores de User-Agent
 - Mostrar en dos ``QTextEdit`` el código fuente de ambas páginas
