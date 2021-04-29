@@ -102,9 +102,9 @@ Métodos virtuales de QWidget para capturar eventos
 	virtual void resizeEvent( QResizeEvent * event );
 	virtual void moveEvent( QMoveEvent * event );
 	virtual void closeEvent( QCloseEvent * event );
-	virtual void hideEvent( QHideEvent * event )
-	virtual void showEvent( QShowEvent * event )
-	virtual void paintEvent( QPaintEvent * event )
+	virtual void hideEvent( QHideEvent * event );
+	virtual void showEvent( QShowEvent * event );
+	virtual void paintEvent( QPaintEvent * event );
 
 
 - Estos métodos pueden ser reimplementados en una clase derivada para recibir los eventos.
