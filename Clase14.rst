@@ -20,7 +20,7 @@ Polimorfismo
 
 	class Persona  {
 	public:
-	    Persona(QString nombre) : nombre(nombre)  {  }
+	    Persona( QString nombre ) : nombre( nombre )  {  }
 	    QString verNombre()  {  return "Nombre: " + nombre;  }
 
 	protected:  // Para acceso desde las clases derivadas
