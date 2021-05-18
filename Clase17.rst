@@ -21,7 +21,7 @@ Consulta a la base de datos
 	    QSqlQuery query = db.exec( "SELECT nombre, apellido FROM usuarios" );
 
 	    while( query.next() )  {
-	        qDebug() << query.value(0).toString() << " " << query.value(1).toString();
+	        qDebug() << query.value( 0 ).toString() << " " << query.value( 1 ).toString();
 	    }
 	}
 
