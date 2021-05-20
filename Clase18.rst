@@ -59,8 +59,7 @@ http://www.md5.cz/
 
 **Ejercicio 21**
 
-- En el pizarrón se escribió el siguiente método para la clase AdminDB.
-- Se pide implementarlo en un proyyecto que tenga un login y valide los usuarios contra la base de datos.
+- Implementar el siguiente método de AdminDB en un proyecto que tenga un login y valide los usuarios contra la base de datos.
 - La clave debe estar en MD5.
 - Hacer los cambios necesarios en este método para su funcionalidad correcta.
 
