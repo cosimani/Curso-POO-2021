@@ -8,6 +8,16 @@ Clase 19 - POO 2020
 
 
 
+:Tarea para Clase 20:
+	Se tomará un mini examen en computadora para resolver en 30 minutos
+
+	Traer un programa con un login que valide usuario con la base de datos
+
+	Será necesario: JADE (o similar) para creación de archivos .sqlite, creación de tablas, carga de datos, etc.
+
+	También: MD5, material de las clases 15 y 16, Ejercicios 10 y 11, QSqlQuery, QSqlRecord, QSqlError, Registrar eventos (logs), INSERT INTO.
+
+
 
 Clase QTimer
 ^^^^^^^^^^^^
@@ -44,7 +54,7 @@ Clase QTimer
 
 
 
-**Ejercicio 12**
+**Ejercicio 23**
 
 - Diseñar una aplicación para una galería de fotos
 - Debe tener una base con una tabla 'imagenes' que tenga las URLs de imágenes
@@ -54,7 +64,7 @@ Clase QTimer
 
 
 
-**Ejercicio 13**
+**Ejercicio 24**
 
 - Usar QtDesigner
 - Definir la clase Ventana que herede de QWidget
