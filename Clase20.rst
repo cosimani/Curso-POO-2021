@@ -8,8 +8,6 @@ Clase 20 - POO 2021
 
 
 
-
-
 Registrar eventos (logs)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
