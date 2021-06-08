@@ -6,6 +6,26 @@ Clase 27 - POO 2018 (No preparado aún)
 ===================
 (Fecha: 26 de junio)
 
+
+
+
+Creando Instalador
+^^^^^^^^^^^^^^^^^^
+
+**Mexican explanation**
+
+|ImageLink|_ 
+
+.. |ImageLink| image:: /images/clase14/mexicano.gif
+.. _ImageLink: https://www.youtube.com/watch?v=rr6G7GU52Wc
+
+**Capturas de pantalla de la creación**
+
+.. figure:: images/clase14/CrearInstalador.gif
+
+
+
+
 Ejercitación para recuperatorio primer parcial
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

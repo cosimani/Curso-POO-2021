@@ -85,7 +85,7 @@ Señales propias
 
 - Diseñar una aplicación con un login inicial que valide contra la base
 - Almacenar sólo el hash en MD5 de las contraseñas
-- Si el usuario es válido mostrar cualquier otra ventana cualquiera
+- Si el usuario es válido mostrar cualquier otra ventana 
 - Registrar en la tabla 'logs' los intentos fallidos de logueo. No registrar las claves.
 - Utilizar la señal creada en el Login del ejercicio anterior
 
