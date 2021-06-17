@@ -14,6 +14,11 @@ Desafíos Qt para exámen final
 `Desafío 1 - Login de usuarios <https://youtu.be/91Ssolzcgbs>`_ 
 
 
+`Lista de reproducción donde se subirán los desafíos <https://youtube.com/playlist?list=PLJSqcEYtiCP-qKIr8V7u6AwEJ0yg0hcex>`_ 
+
+
+
+
 Funciones inline
 ================
 
