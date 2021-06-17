@@ -7,6 +7,14 @@ Clase 25 - POO 2021
 (Fecha: 17 de junio)
 
 
+Desafíos Qt para exámen final
+=============================
+
+https://youtu.be/91Ssolzcgbs
+
+`Desafío 1 - Login de usuarios <https://youtu.be/91Ssolzcgbs>`_ 
+
+
 Funciones inline
 ================
 
