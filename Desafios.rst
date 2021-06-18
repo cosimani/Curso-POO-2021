@@ -3,7 +3,7 @@
 .. _rcs_subversion:
 
 
-Desafíos Qt para exámen final
+Desafíos Qt para examen final
 =============================
 
 
