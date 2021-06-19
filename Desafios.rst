@@ -18,6 +18,8 @@ Desafío 3 - `Interfaz con Botón <https://youtu.be/uqLgEIH27yA>`_ - Código `aq
 
 Desafío 4 - `Imagen de internet <https://youtu.be/uzK7qx_oV2k>`_ - Código `aquí <https://github.com/cosimani/Curso-POO-2021/blob/master/sources/desafios/ImagenDeInternet.rar?raw=true>`_
 
+Desafío 5 - `Clase Manager <https://youtu.be/eyr2i-NNQ_A>`_ - Código `aquí <https://github.com/cosimani/Curso-POO-2021/blob/master/sources/desafios/Manager.rar?raw=true>`_
+
 
 
 
