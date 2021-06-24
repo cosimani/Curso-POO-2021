@@ -24,6 +24,9 @@ Desafío 6 - `Clase Figura <https://youtu.be/qEZY3__zwFg>`_ - Código `aquí <ht
 
 Desafío 7 - `AdminDB <https://youtu.be/DruRvL-YZfo>`_ - Código `aquí <https://github.com/cosimani/Curso-POO-2021/blob/master/sources/desafios/AdminDB.rar?raw=true>`_
 
+Desafío 8 - `Clases <https://youtu.be/m76Alw6IYi4>`_ - Código `aquí <https://github.com/cosimani/Curso-POO-2021/blob/master/sources/desafios/Clases.rar?raw=true>`_
+
+
 
 
 
