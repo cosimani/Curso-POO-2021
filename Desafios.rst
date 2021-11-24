@@ -31,25 +31,25 @@ Desafío 8 - `Clases <https://youtu.be/m76Alw6IYi4>`_ - Código `aquí <https://
 Temas para examen final
 =======================
 
-Tema 1 - ``namespace, inline,  const``
+Temas 1 - ``namespace, inline,  const``
 
-Tema 2 - ``std, vector, string``
+Temas 2 - ``std, vector, string``
 
-Tema 3 - ``Aritmética de punteros y Funciones genéricas``
+Temas 3 - ``Aritmética de punteros y Funciones genéricas``
 
-Tema 4 - ``Herencia, herencia múltiple y Polimorfismo``
+Temas 4 - ``Herencia, herencia múltiple y Polimorfismo``
 
-Tema 5 - ``Funciones virtuales, funciones virtuales puras y Clases abstractas``
+Temas 5 - ``Funciones virtuales, funciones virtuales puras y Clases abstractas``
 
-Tema 6 - ``Interfaz gráfica de usuario con Qt (widgets, layouts, slots, signals, etc.)``
+Temas 6 - ``Interfaz gráfica de usuario con Qt (widgets, layouts, slots, signals, etc.)``
 
-Tema 7 - ``QPainter y captura de eventos del teclado y del mouse``
+Temas 7 - ``QPainter y captura de eventos del teclado y del mouse``
 
-Tema 8 - ``Uso de las clases del módulo QtNetwork``
+Temas 8 - ``Uso de las clases del módulo QtNetwork``
 
-Tema 9 - ``QTimer y modificador friend``
+Temas 9 - ``QTimer y modificador friend``
 
-Tema 10 - ``Creación de interfaces con QtDesigner``
+Temas 10 - ``Creación de interfaces con QtDesigner``
 
 
 
