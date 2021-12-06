@@ -53,4 +53,9 @@ Temas 10 - ``Creación de interfaces con QtDesigner``
 
 
 
+==========
+
+
+`Aquí la fórmula para el cálculo de la nota final <https://colab.research.google.com/drive/1wNIeXeItu0Nb6O4Levs8c8q7g9t3dBag?usp=sharing>`_ 
+
 
